@@ -27,6 +27,7 @@ public class OperationServiceImpl implements OperationService {
     @Transactional(readOnly = true)
     public String getOperationFee(String brandName, double amount) {
         final Brand brand = brandRepository.findByName(brandName);
+        if (brand == null) return "La marca ingresada es inválida";
         return Operation.getFee(brand, amount);
     }
 
