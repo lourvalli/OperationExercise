@@ -1,15 +1,12 @@
 package com.eldar.operation_management;
 
-import com.eldar.operation_management.domain.model.Card;
-import com.eldar.operation_management.domain.model.Operation;
-import com.eldar.operation_management.domain.model.brand.Visa;
+import com.eldar.operation_management.domain.model.card.Card;
+import com.eldar.operation_management.domain.model.operation.Operation;
 import com.eldar.operation_management.domain.repository.BrandRepository;
 import com.eldar.operation_management.domain.repository.CardRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
-
-import java.util.Calendar;
 
 @SpringBootApplication
 public class Application {

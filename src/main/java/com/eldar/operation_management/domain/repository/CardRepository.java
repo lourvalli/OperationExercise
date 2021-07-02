@@ -1,6 +1,6 @@
 package com.eldar.operation_management.domain.repository;
 
-import com.eldar.operation_management.domain.model.Card;
+import com.eldar.operation_management.domain.model.card.Card;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.eldar.operation_management.domain.model;
+package com.eldar.operation_management.domain.model.card;
 
 import com.eldar.operation_management.domain.model.brand.Brand;
 import lombok.AllArgsConstructor;

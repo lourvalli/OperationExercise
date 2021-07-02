@@ -1,6 +1,6 @@
 package com.eldar.operation_management;
 
-import com.eldar.operation_management.domain.model.Card;
+import com.eldar.operation_management.domain.model.card.Card;
 import com.eldar.operation_management.domain.model.brand.Amex;
 import com.eldar.operation_management.domain.model.brand.Nara;
 import com.eldar.operation_management.domain.model.brand.Visa;

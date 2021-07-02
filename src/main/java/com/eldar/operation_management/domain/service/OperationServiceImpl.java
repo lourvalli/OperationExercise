@@ -1,7 +1,7 @@
 package com.eldar.operation_management.domain.service;
 
 import com.eldar.operation_management.domain.model.brand.Brand;
-import com.eldar.operation_management.domain.model.Operation;
+import com.eldar.operation_management.domain.model.operation.Operation;
 import com.eldar.operation_management.domain.repository.BrandRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

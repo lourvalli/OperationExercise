@@ -1,4 +1,4 @@
-package com.eldar.operation_management.domain.model;
+package com.eldar.operation_management.domain.model.operation;
 
 import com.eldar.operation_management.domain.model.brand.Brand;
 

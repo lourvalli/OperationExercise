@@ -1,4 +1,4 @@
-package com.eldar.operation_management.infraestructure;
+package com.eldar.operation_management.infraestructure.repository;
 
 import com.eldar.operation_management.domain.model.brand.Brand;
 import com.eldar.operation_management.domain.repository.BrandRepository;
