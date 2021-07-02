@@ -17,7 +17,7 @@ public class Operation {
     public static String getFee(Brand brand, double amount) {
         final double fee = brand.getFee();
         if (fee > MAX_FEE || fee < MIN_FEE) return "Fee out of range (0.3% - 5%)";
-        return "El importe total de la operación de $" + amount + " con la marca " + brand.getName() + " es de: " + (amount + amount * fee / 100);
+        return "El importe total de la operación de $" + amount + " con la marca " + brand.getName() + " es de: $" + (amount + amount * fee / 100);
     }
 
     //~ Static Fields ...........................................................................................................................
