@@ -1,6 +1,5 @@
 package com.eldar.operation_management.domain.model.brand;
 
-import javafx.beans.binding.IntegerBinding;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 
