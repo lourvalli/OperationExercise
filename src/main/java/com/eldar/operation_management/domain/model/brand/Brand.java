@@ -20,6 +20,13 @@ public abstract class Brand {
 
     public abstract double getFee();
 
+    public boolean equals(Object object) {
+        if (this == object) return true;
+        if (object == null || getClass() != object.getClass()) return false;
+        final Brand brand = (Brand) object;
+        return name.equals(brand.name);
+    }
+
     public String toString() {
         return "Brand{ name='" + name + "\'}";
     }

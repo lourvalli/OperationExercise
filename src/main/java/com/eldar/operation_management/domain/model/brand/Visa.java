@@ -1,5 +1,6 @@
 package com.eldar.operation_management.domain.model.brand;
 
+import javafx.beans.binding.IntegerBinding;
 import lombok.Builder;
 import lombok.NoArgsConstructor;
 
@@ -23,7 +24,9 @@ public class Visa extends Brand {
     @Override
     public double getFee() {
         final Calendar calendar = Calendar.getInstance();
-        return (double) calendar.get(Calendar.YEAR) / calendar.get(Calendar.DAY_OF_MONTH);
+        final char[] digits = String.valueOf(calendar.get(Calendar.YEAR)).toCharArray();
+        final int year = Integer.valueOf(digits[digits.length - 2] + String.valueOf(digits[digits.length - 1]));
+        return (double) year / calendar.get(Calendar.DAY_OF_MONTH);
     }
 
     private static class InstanceHolder {
