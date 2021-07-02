@@ -37,8 +37,8 @@ public class Application {
 		System.out.println("Card with same fields are equals? -> " + card1.equals(card3));
 
 		System.out.println("Amount with fee for $500 operation with Visa: " + Operation.getFee(brandRepository.findByName("VISA"), 500));
-		System.out.println("Amount with fee for $500 operation with Nara: " + Operation.getFee(brandRepository.findByName("AMEX"), 500));
-		System.out.println("Amount with fee for $500 operation with Amex: " + Operation.getFee(brandRepository.findByName("NARA"), 500));
+		System.out.println("Amount with fee for $500 operation with Nara: " + Operation.getFee(brandRepository.findByName("NARA"), 500));
+		System.out.println("Amount with fee for $500 operation with Amex: " + Operation.getFee(brandRepository.findByName("AMEX"), 500));
 
 	}
 
