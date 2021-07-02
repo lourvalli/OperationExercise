@@ -27,8 +27,6 @@ public class OperationServiceImpl implements OperationService {
     @Transactional(readOnly = true)
     public String getOperationFee(String brandName, double amount) {
         final Brand brand = brandRepository.findByName(brandName);
-
-//        final Brand brand = BrandName.valueOf(brandName).brand();
         return Operation.getFee(brand, amount);
     }
 
